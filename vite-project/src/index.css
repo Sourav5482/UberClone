@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    color: white;
+    overflow-x: hidden;
+}
+h1{
+
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+button{
+    font-weight: 700;
+}
+button:hover{
+    background-color: #333333;
+}
+.a:hover{
+    cursor: pointer;
+}
